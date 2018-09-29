@@ -27,12 +27,12 @@ public class PBO210117065Latihan17ProgramTunjangan {
         System.out.println("********Program Tunjangan********");
         System.out.print("Berapa gaji pokok Anda perbulan ? : Rp.");
         gaji = scn.nextDouble();
-        // input harus huruf kecil semua
-        System.out.print("Status Anda? (menikah/belum) :");
+        // input harus huruf Capitalize (huruf depannya kapital)
+        System.out.print("Status Anda? (Menikah/Belum) :");
         status = scn.next();
         
         // kondisional tunjangan dengan menggunakan ?: 
-        tunj=(status.equals("menikah")?0.35*gaji:0);
+        tunj=(status.equals("Menikah")?0.35*gaji:0);
         // gatot = gaji total
         gatot = gaji+tunj;
         
