@@ -8,8 +8,8 @@ import java.util.Scanner;
  * KELAS    : IF-2
  * NIM      : 10117065
  * Deskripsi Program : Menghitung total gaji berdasarkan status pernikahan
- * dengan ketentuan tunjangan 35%(dari gaji pokok) jika sudah menikah namun 
- * kalau belum maka tidak mendapatkan tunjangan
+ * dengan ketentuan jika sudah menikah mendapatkan tunjangan 35%(dari gaji pokok)
+ * jika belum maka tidak mendapatkan tunjangan
  * 
  */
 public class PBO210117065Latihan17ProgramTunjangan {
